@@ -13,18 +13,31 @@ Before proceeding, make sure you have the following installed on your system:
   ```
 - Git
 Ensure you have Git installed by running:
+  ```bash
+  git --version
+  ```
+
+## Clone the Repository
+Start by cloning the repository to your local machine. Replace the URL with the actual repository URL.
 ```bash
-git --version
+git clone https://github.com/yourusername/your-repo.git
+cd your-repo
 ```
-
-
+## Set Up and activate the Python Virtual Environment
 ```bash
-
+python -m venv venv
 ```
-
+Activate the Virtual Environment
+```
+Windows:
 ```bash
+venv\Scripts\activate
 
+Mac/Linux:
+```bash
+source venv/bin/activate
 ```
+After activation, your terminal prompt should change to show the name of the virtual environment (e.g., (venv)).
 
 ```bash
 
