@@ -24,14 +24,15 @@ git clone https://github.com/yourusername/your-repo.git
 cd your-repo
 ```
 ## Set Up and activate the Python Virtual Environment
+Set up a virtual environment with name flaskEnv:
 ```bash
-python -m venv venv
+python -m venv flaskEnv
 ```
 Activate the Virtual Environment
 
 Windows:
 ```bash
-venv\Scripts\activate
+flaskEnv\Scripts\activate
 ```
 Mac/Linux:
 ```bash
