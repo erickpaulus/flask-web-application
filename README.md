@@ -28,16 +28,34 @@ cd your-repo
 python -m venv venv
 ```
 Activate the Virtual Environment
-```
+
 Windows:
 ```bash
 venv\Scripts\activate
-
+```
 Mac/Linux:
 ```bash
 source venv/bin/activate
 ```
 After activation, your terminal prompt should change to show the name of the virtual environment (e.g., (venv)).
+
+## Install Required Packages
+With the virtual environment activated, install the required Python packages by running:
+```bash
+pip install flask
+pip install requests
+```
+
+
+```bash
+
+```
+
+
+```bash
+
+```
+
 
 ```bash
 
