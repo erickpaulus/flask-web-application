@@ -38,7 +38,7 @@ Mac/Linux:
 ```bash
 source venv/bin/activate
 ```
-After activation, your terminal prompt should change to show the name of the virtual environment (e.g., (venv)).
+After activation, your terminal prompt should change to show the name of the virtual environment (e.g., (flaskEnv)).
 
 ## Install Required Packages
 With the virtual environment activated, install the required Python packages by running:
@@ -47,18 +47,16 @@ pip install flask
 pip install requests
 ```
 
-
+## Running the Flask Application
+Once Flask is installed, you can run the Flask application. If your Flask app is in a file called app.py, use this command to start the server:
 ```bash
-
+python app.py
 ```
+By default, Flask runs on http://127.0.0.1:5000.
 
-
+## Deactivating the Virtual Environment
+When you're done working in the virtual environment, you can deactivate it by simply running:
 ```bash
-
-```
-
-
-```bash
-
+deactivate
 ```
 
