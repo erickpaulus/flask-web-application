@@ -54,6 +54,8 @@ python app.py
 ```
 By default, Flask runs on http://127.0.0.1:5000.
 
+![homepage](img/homepage.png)
+
 ## Deactivating the Virtual Environment
 When you're done working in the virtual environment, you can deactivate it by simply running:
 ```bash
